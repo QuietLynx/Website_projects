@@ -12,12 +12,12 @@
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg) 0%, #071026 100%);color:var(--text);}
 .container{max-width:var(--container);margin:0 auto;padding:1.25rem;}
-.site-header{background:transparent;position:sticky;top:0;z-index:20}
+.site-header{background:#fff;position:sticky;top:0;z-index:20;padding:1rem 0;}
 .site-header .container{display:flex;align-items:center;justify-content:space-between}
-.logo{color:var(--text);text-decoration:none;font-weight:700;font-size:1.125rem}
-.menu-btn{background:transparent;border:0;color:var(--text);font-size:1.3rem;display:block}
+.logo{color:#000;text-decoration:none;font-weight:700;font-size:1.125rem}
+.menu-btn{background:transparent;border:0;color:#000;font-size:1.3rem;display:block}
 .site-nav{display:none}
-.site-nav a{color:var(--text);text-decoration:none;margin-left:1rem}
+.site-nav a{color:#000;text-decoration:none;margin-left:1rem}
 .hero{padding:4rem 0;text-align:center}
 .hero h1{font-size:2rem;margin:0}
 .hero p{color:var(--muted);margin-top:.5rem}
